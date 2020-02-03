@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FastClicker</string>
+    <string name="TimeLeft">Time Left: 20</string>
+    <string name="Clicks">Total Clicks: 0</string>
+    <string name="Click">Click</string>
+    <string name="Start">Start</string>
+    <string name="Click2">Click</string>
+</resources>
