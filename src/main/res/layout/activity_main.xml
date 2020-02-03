@@ -6,50 +6,72 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/tv_time"
+    <Button
+        android:id="@+id/btn_Joke1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/TimeLeft"
+        android:text="@string/Joke1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/btn_Joke2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Joke2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Joke1"
+        tools:text="@string/Joke2" />
+
+    <Button
+        android:id="@+id/btn_Joke3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Joke3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Joke2"
+        tools:text="@string/Joke3" />
+
     <TextView
-        android:id="@+id/tv_clicks"
+        android:id="@+id/tv_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Clicks"
+        android:layout_marginTop="32dp"
+        android:text="@string/tv_message"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_time" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_Joke3" />
 
     <Button
-        android:id="@+id/b_click1"
+        android:id="@+id/btn_Joke4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
-        android:text="@string/Click"
+        android:layout_marginTop="8dp"
+        android:text="@string/Joke4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_time" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_message" />
 
     <Button
-        android:id="@+id/b_start"
+        android:id="@+id/btn_Joke5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Start"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/b_click2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/Click2"
+        android:layout_marginTop="8dp"
+        android:text="@string/Joke5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/b_click1" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_Joke4" />
+
+    <Button
+        android:id="@+id/btn_Joke6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Joke6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Joke5" />
 </androidx.constraintlayout.widget.ConstraintLayout>

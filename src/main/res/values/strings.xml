@@ -1,8 +1,12 @@
 <resources>
-    <string name="app_name">FastClicker</string>
-    <string name="TimeLeft">Time Left: 20</string>
-    <string name="Clicks">Total Clicks: 0</string>
-    <string name="Click">Click</string>
-    <string name="Start">Start</string>
-    <string name="Click2">Click</string>
+    <string name="app_name">JokesApp</string>
+    <string name="joke1" />
+    <string name="joke2" />
+    <string name="Joke1">why did the chicken cross the road?</string>
+    <string name="Joke2">What tea is the hardest to swallow?</string>
+    <string name="Joke3">What do you call a cow with no legs?</string>
+    <string name="Joke4">What do you call a bear with no ears?</string>
+    <string name="Joke5">What did 5 fingers say to the face?</string>
+    <string name="Joke6">A man walks into a bar.</string>
+    <string name="tv_message">TextView</string>
 </resources>
